@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+p,
+li {
+  color: white;
+}
+
+body {
+  font-family: sans-serif;
+  overflow: hidden;
+}
+img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  filter: contrast(1.75);
+}
+
+h2 {
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  font-family: sans-serif;
+}
+
+.land-btn {
+  font-size: 3rem;
+  color: black;
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  border-radius: 1rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#logo {
+  position: absolute;
+  padding-top: 2rem;
+  background: -webkit-gradient(linear, left top, right top);
+  top: 30%;
+}
+
+#logo path:nth-child(1) {
+  stroke-dasharray: 572;
+  stroke-dashoffset: 572;
+  animation: line-anim 2s ease forwards infinite;
+}
+
+#logo path:nth-child(2) {
+  stroke-dasharray: 572;
+  stroke-dashoffset: 572;
+  animation: line-anim 2s ease forwards infinite;
+}
+#logo path:nth-child(3) {
+  stroke-dasharray: 572;
+  stroke-dashoffset: 572;
+  animation: line-anim 2s ease forwards infinite;
+}
+#logo path:nth-child(4) {
+  stroke-dasharray: 572;
+  stroke-dashoffset: 572;
+  animation: line-anim 2s ease forwards infinite;
+}
+#logo path:nth-child(5) {
+  stroke-dasharray: 572;
+  stroke-dashoffset: 572;
+  animation: line-anim 2s ease forwards infinite;
+}
+#logo path:nth-child(6) {
+  stroke-dasharray: 572;
+  stroke-dashoffset: 572;
+  animation: line-anim 2s ease forwards infinite;
+}
+#logo path:nth-child(7) {
+  stroke-dasharray: 572;
+  stroke-dashoffset: 572;
+  animation: line-anim 2s ease forwards infinite;
+}
+#logo path:nth-child(8) {
+  stroke-dasharray: 572;
+  stroke-dashoffset: 572;
+  animation: line-anim 2s ease forwards infinite;
+}
+#logo path:nth-child(9) {
+  stroke-dasharray: 572;
+  stroke-dashoffset: 572;
+  animation: line-anim 2s ease forwards infinite;
+}
+.scene,
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/*  second section */
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
